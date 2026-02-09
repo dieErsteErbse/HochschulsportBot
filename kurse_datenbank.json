@@ -1,0 +1,1178 @@
+[
+    {
+        "id": "12",
+        "sport": "Volleyball",
+        "name": "Freitag 17:00 - 19:00 Saeed",
+        "tag": "Freitag",
+        "zeit": "17:00 - 19:00"
+    },
+    {
+        "id": "14",
+        "sport": "Volleyball",
+        "name": "Freitag 19:00 - 21:00 Saeed",
+        "tag": "Freitag",
+        "zeit": "19:00 - 21:00"
+    },
+    {
+        "id": "20",
+        "sport": "Badminton",
+        "name": "Donnerstag 20:00 - 21:30 Ferry",
+        "tag": "Donnerstag",
+        "zeit": "20:00 - 21:30"
+    },
+    {
+        "id": "22",
+        "sport": "Volleyball",
+        "name": "Montag 17:00-19:00 Uhr Marcel",
+        "tag": "Montag",
+        "zeit": "17:00 - 19:00"
+    },
+    {
+        "id": "23",
+        "sport": "Volleyball",
+        "name": "Dienstag 11:30 - 13:30 Uhr Max",
+        "tag": "Dienstag",
+        "zeit": "11:30 - 13:30"
+    },
+    {
+        "id": "24",
+        "sport": "Volleyball",
+        "name": "Montag 19:00- 20:30 Uhr Marcel",
+        "tag": "Montag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "26",
+        "sport": "Volleyball",
+        "name": "Freitag 11:30- 13:30 Uhr",
+        "tag": "Freitag",
+        "zeit": "11:30 - 13:30"
+    },
+    {
+        "id": "28",
+        "sport": "Volleyball",
+        "name": "Samstag 14:00- 15:30 Uhr Max",
+        "tag": "Samstag",
+        "zeit": "14:00 - 15:30"
+    },
+    {
+        "id": "29",
+        "sport": "Volleyball",
+        "name": "Mittwoch 17:30-19:30 Marcel",
+        "tag": "Mittwoch",
+        "zeit": "17:30 - 19:30"
+    },
+    {
+        "id": "34",
+        "sport": "Badminton",
+        "name": "Dienstag 17:00 - 18:00 Julian",
+        "tag": "Dienstag",
+        "zeit": "17:00 - 18:00"
+    },
+    {
+        "id": "37",
+        "sport": "Badminton",
+        "name": "Dienstag 18:00 - 19:00 Julian",
+        "tag": "Dienstag",
+        "zeit": "18:00 - 19:00"
+    },
+    {
+        "id": "42",
+        "sport": "Basketball",
+        "name": "Montag 19 - 20:30 Uhr Martin",
+        "tag": "Montag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "44",
+        "sport": "Basketball",
+        "name": "Montag 20:30 - 22:00 Uhr Uhr Martin",
+        "tag": "Montag",
+        "zeit": "20:30 - 22:00"
+    },
+    {
+        "id": "45",
+        "sport": "Basketball",
+        "name": "Freitag 19:30 - 21:30 Uhr Uhr Martin",
+        "tag": "Freitag",
+        "zeit": "19:30 - 21:30"
+    },
+    {
+        "id": "47",
+        "sport": "Basketball",
+        "name": "Mittwoch 17:15 - 19:00 Nele",
+        "tag": "Mittwoch",
+        "zeit": "17:15 - 19:00"
+    },
+    {
+        "id": "49",
+        "sport": "Fußball",
+        "name": "Montag 16:00 - 17:45",
+        "tag": "Montag",
+        "zeit": "16:00 - 17:45"
+    },
+    {
+        "id": "50",
+        "sport": "Fußball",
+        "name": "Mittwoch 16:00 - 17:45",
+        "tag": "Mittwoch",
+        "zeit": "16:00 - 17:45"
+    },
+    {
+        "id": "55",
+        "sport": "Indoor Fußball",
+        "name": "Donnerstag 16:30 -18:00 Kautz",
+        "tag": "Donnerstag",
+        "zeit": "16:30 - 18:00"
+    },
+    {
+        "id": "56",
+        "sport": "Indoor Fußball",
+        "name": "Dienstag 16:00 -17:30 Kautz",
+        "tag": "Dienstag",
+        "zeit": "16:30 - 18:00"
+    },
+    {
+        "id": "58",
+        "sport": "Tischfußball",
+        "name": "Kurs 1",
+        "tag": "Mittwoch",
+        "zeit": "19:00 - 21:00"
+    },
+    {
+        "id": "60",
+        "sport": "Basketball",
+        "name": "Samstag 15:30 - 17:00 Martin",
+        "tag": "Samstag",
+        "zeit": "15:30 - 17:00"
+    },
+    {
+        "id": "62",
+        "sport": "Aqua Fitness",
+        "name": "Kurs 1",
+        "tag": "Mittwoch",
+        "zeit": "19:45 - 20:30"
+    },
+    {
+        "id": "63",
+        "sport": "Aqua Fitness",
+        "name": "Kurs 2",
+        "tag": "Mittwoch",
+        "zeit": "20:30 - 21:15"
+    },
+    {
+        "id": "76",
+        "sport": "Volleyball",
+        "name": "Freitag 19:00 - 21:00 Uhr Max",
+        "tag": "Freitag",
+        "zeit": "19:00 - 21:00"
+    },
+    {
+        "id": "85",
+        "sport": "Tischtennis",
+        "name": "Tischtennis Di 19:00 - 21:00",
+        "tag": "Dienstag",
+        "zeit": "19:00 - 21:00"
+    },
+    {
+        "id": "86",
+        "sport": "Tischtennis",
+        "name": "Tischtennis Mi 20:30 - 22:00",
+        "tag": "Mittwoch",
+        "zeit": "20:00 - 22:00"
+    },
+    {
+        "id": "105",
+        "sport": "Fitness-Boxing",
+        "name": "Montag 19:00-20:00 Sylvia",
+        "tag": "Montag",
+        "zeit": "19:00 - 20:00"
+    },
+    {
+        "id": "107",
+        "sport": "BBP Bauch Beine Po",
+        "name": "BBP Bauch Beine Po",
+        "tag": "Dienstag",
+        "zeit": "17:30 - 19:00"
+    },
+    {
+        "id": "108",
+        "sport": "BOP (Bauch, Oberschenkel, Po)",
+        "name": "BOP Di",
+        "tag": "Dienstag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "109",
+        "sport": "Kickboxing-Workout - NEU!",
+        "name": "Kickboxing-Workout - NEU!",
+        "tag": "Dienstag",
+        "zeit": "20:15 - 21:45"
+    },
+    {
+        "id": "110",
+        "sport": "HIIT",
+        "name": "HIIT",
+        "tag": "Mittwoch",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "112",
+        "sport": "BOP Power-Workout",
+        "name": "BOP Power Workout",
+        "tag": "Donnerstag",
+        "zeit": "19.00  - 20:30"
+    },
+    {
+        "id": "117",
+        "sport": "Volleyball",
+        "name": "Donnerstag 17:45-19:45 Hamid",
+        "tag": "Donnerstag",
+        "zeit": "17:45 - 19:45"
+    },
+    {
+        "id": "118",
+        "sport": "Circuittraining ",
+        "name": "Circuittraining",
+        "tag": "Dienstag",
+        "zeit": "20:00 - 21:30"
+    },
+    {
+        "id": "119",
+        "sport": "Handball",
+        "name": "Handball Do.",
+        "tag": "Donnerstag",
+        "zeit": "18:00 - 20:00"
+    },
+    {
+        "id": "121",
+        "sport": "Outdoor-Workout",
+        "name": "Outdoor-Workout",
+        "tag": "Montag",
+        "zeit": "18:00 - 20:00"
+    },
+    {
+        "id": "122",
+        "sport": "Gettoworkout",
+        "name": "Gettoworkout Dienstag",
+        "tag": "Dienstag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "123",
+        "sport": "Gettoworkout",
+        "name": "Gettoworkout Donnerstag",
+        "tag": "Donnerstag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "127",
+        "sport": "Kickboxen",
+        "name": "Kickboxen",
+        "tag": "Mittwoch",
+        "zeit": "17:30 - 19:00"
+    },
+    {
+        "id": "131",
+        "sport": "Capoeira",
+        "name": "Kurs 1",
+        "tag": "Montag",
+        "zeit": "17:30 - 19:00"
+    },
+    {
+        "id": "132",
+        "sport": "Taekwondo",
+        "name": "Kurs 1",
+        "tag": "Dienstag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "133",
+        "sport": "Basketball",
+        "name": "Donnerstag 19:30",
+        "tag": "Donnerstag",
+        "zeit": "19:30 - 21:30"
+    },
+    {
+        "id": "134",
+        "sport": "Basketball",
+        "name": "Sonntag 16:00",
+        "tag": "Sonntag",
+        "zeit": "16:00 - 18:00"
+    },
+    {
+        "id": "136",
+        "sport": "Ballett",
+        "name": "Kurs 8 Mittwoch 17:00",
+        "tag": "Mittwoch",
+        "zeit": "17:00 - 18:30"
+    },
+    {
+        "id": "137",
+        "sport": "Ballett",
+        "name": "Kurs 1 Dienstag 19:00 ",
+        "tag": "Dienstag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "140",
+        "sport": "Ballett",
+        "name": "Kurs 2 Donnerstag 16:30",
+        "tag": "Donnerstag",
+        "zeit": "16:30 - 18:00"
+    },
+    {
+        "id": "141",
+        "sport": "Ballett",
+        "name": "Kurs 3 Dienstag 20:45",
+        "tag": "Dienstag",
+        "zeit": "20:45 - 22:00"
+    },
+    {
+        "id": "142",
+        "sport": "Spikeball",
+        "name": "Montag 17:30",
+        "tag": "Montag",
+        "zeit": "17:30 - 19:00"
+    },
+    {
+        "id": "143",
+        "sport": "Buteyko Atem Methode",
+        "name": "Dienstag 19:00",
+        "tag": "Dienstag",
+        "zeit": "19:00 - 20:00"
+    },
+    {
+        "id": "144",
+        "sport": "Afro-Brasilianischer Tanz",
+        "name": "Kurs 1",
+        "tag": "Montag",
+        "zeit": "18:00 - 19:00"
+    },
+    {
+        "id": "145",
+        "sport": "Afro-Dance",
+        "name": "Kurs 1",
+        "tag": "Dienstag",
+        "zeit": "13:00 - 14:00"
+    },
+    {
+        "id": "146",
+        "sport": "Jazz-Dance",
+        "name": "Kurs 1",
+        "tag": "Dienstag",
+        "zeit": "14:30 - 16:00"
+    },
+    {
+        "id": "147",
+        "sport": "Jazz-Dance",
+        "name": "Kurs 2",
+        "tag": "Donnerstag",
+        "zeit": "15:00 - 16:30"
+    },
+    {
+        "id": "148",
+        "sport": "Modern-Dance",
+        "name": "Kurs 1",
+        "tag": "Montag",
+        "zeit": "20:30 - 22:00"
+    },
+    {
+        "id": "149",
+        "sport": "Samba",
+        "name": "Kurs 1",
+        "tag": "Dienstag",
+        "zeit": "16:00 - 17:00"
+    },
+    {
+        "id": "151",
+        "sport": "Shintaido - Bojutsu",
+        "name": "Shintaido - Bojutsu",
+        "tag": "Montag",
+        "zeit": "20:00 - 21:30"
+    },
+    {
+        "id": "152",
+        "sport": "Ninjutsu",
+        "name": "Ninjutsu",
+        "tag": "Freitag",
+        "zeit": "20:30 - 22:00"
+    },
+    {
+        "id": "153",
+        "sport": "American Football",
+        "name": "American Football",
+        "tag": "Montag",
+        "zeit": "19:45 - 21:45"
+    },
+    {
+        "id": "154",
+        "sport": "Ladies Football",
+        "name": "Ladies Football",
+        "tag": "Dienstag",
+        "zeit": "19:30 - 21:30"
+    },
+    {
+        "id": "159",
+        "sport": "Badminton",
+        "name": "Montag 17:00 - 18:00 Julian",
+        "tag": "Montag",
+        "zeit": "17:00 - 18:00"
+    },
+    {
+        "id": "160",
+        "sport": "Badminton",
+        "name": "Montag 18:00 - 19:00 Julian",
+        "tag": "Montag",
+        "zeit": "18:00 - 19:00"
+    },
+    {
+        "id": "161",
+        "sport": "Yogilates",
+        "name": "Yogilates",
+        "tag": "Mittwoch",
+        "zeit": "17:30  - 19:00"
+    },
+    {
+        "id": "162",
+        "sport": "Power-Yoga",
+        "name": "Power-Yoga",
+        "tag": "Dienstag",
+        "zeit": "19:45 - 21:15"
+    },
+    {
+        "id": "163",
+        "sport": "Power-Pilates",
+        "name": "Power-Pilates",
+        "tag": "Dienstag",
+        "zeit": "18:15 - 19:45"
+    },
+    {
+        "id": "164",
+        "sport": "Body-Workout Zirkel",
+        "name": "Body-Workout Zirkel",
+        "tag": "Dienstag",
+        "zeit": "20:15 - 21:45"
+    },
+    {
+        "id": "165",
+        "sport": "Gettoworkout",
+        "name": "Gettoworkout Sonntag",
+        "tag": "Sonntag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "166",
+        "sport": "Hatha-Yoga",
+        "name": "Hatha-Yoga Donnerstag 20:15",
+        "tag": "Donnerstag",
+        "zeit": "20:00 - 21:30"
+    },
+    {
+        "id": "167",
+        "sport": "Power Workout",
+        "name": "Power Workout",
+        "tag": "Montag",
+        "zeit": "18:30 - 20:00"
+    },
+    {
+        "id": "168",
+        "sport": "American Football",
+        "name": "American Football Donnerstag",
+        "tag": "Donnerstag",
+        "zeit": "18:00 - 20:00"
+    },
+    {
+        "id": "169",
+        "sport": "Badminton",
+        "name": "Donnerstag 20:00-21:30",
+        "tag": "Donnerstag",
+        "zeit": "20:00 - 21:30"
+    },
+    {
+        "id": "172",
+        "sport": "Judo",
+        "name": "Judo Mo.",
+        "tag": "Montag",
+        "zeit": "19:00 - 21:00"
+    },
+    {
+        "id": "173",
+        "sport": "Judo",
+        "name": "Judo Mi.",
+        "tag": "Mittwoch",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "177",
+        "sport": "RBB: Rücken - Bauch - Beweglichkeit",
+        "name": "RBB: Rücken - Bauch - Beweglichkeit",
+        "tag": "Montag",
+        "zeit": "20:00 - 22:00"
+    },
+    {
+        "id": "178",
+        "sport": "Karate",
+        "name": "Karate",
+        "tag": "Freitag",
+        "zeit": "18:30 - 20:00"
+    },
+    {
+        "id": "179",
+        "sport": "Orientalischer Tanz",
+        "name": "Donnerstag 15:30",
+        "tag": "Donnerstag",
+        "zeit": "15:30 - 16:30"
+    },
+    {
+        "id": "180",
+        "sport": "Volleyball",
+        "name": "Zumba",
+        "tag": "Montag",
+        "zeit": "17:45 - 18:45"
+    },
+    {
+        "id": "182",
+        "sport": "STRONG by Zumba",
+        "name": "STRONG by Zumba",
+        "tag": "Mittwoch",
+        "zeit": "17:15 - 18:45"
+    },
+    {
+        "id": "188",
+        "sport": "Kundilini Yoga",
+        "name": "Kundilini Yoga",
+        "tag": "Montag",
+        "zeit": "19:30 - 21:00"
+    },
+    {
+        "id": "190",
+        "sport": "Zumba",
+        "name": "Zumba Mo",
+        "tag": "Montag",
+        "zeit": "17:45 - 18:45"
+    },
+    {
+        "id": "192",
+        "sport": "Kickboxen",
+        "name": "Kickboxen",
+        "tag": "Freitag",
+        "zeit": "17:30 - 19:00"
+    },
+    {
+        "id": "195",
+        "sport": "Volleyball",
+        "name": "Volleyball",
+        "tag": "Dienstag",
+        "zeit": "18:00 - 20:00"
+    },
+    {
+        "id": "196",
+        "sport": "Volleyball",
+        "name": "Dienstag 18:00-20:00 Max",
+        "tag": "Dienstag",
+        "zeit": "18:00 - 20:00"
+    },
+    {
+        "id": "197",
+        "sport": "Volleyball",
+        "name": "Dienstag 20:00-22:00 Max",
+        "tag": "Dienstag",
+        "zeit": "20:00 - 22:00"
+    },
+    {
+        "id": "202",
+        "sport": "Lachyoga",
+        "name": "Lachyoga",
+        "tag": "Donnerstag",
+        "zeit": "15:00 - 16:30"
+    },
+    {
+        "id": "206",
+        "sport": "Tai Chi Chuan",
+        "name": "Tai Chi Chuan",
+        "tag": "Donnerstag",
+        "zeit": "18:00 - 19:30"
+    },
+    {
+        "id": "209",
+        "sport": "Tai Chi Chuan",
+        "name": "Tai Chi Chuan",
+        "tag": "Donnerstag",
+        "zeit": "19:30 - 21:00"
+    },
+    {
+        "id": "211",
+        "sport": "Aikido",
+        "name": "Aikido",
+        "tag": "Mittwoch",
+        "zeit": "19:30 - 21:00"
+    },
+    {
+        "id": "212",
+        "sport": "Capoeira e tudo que a boca come",
+        "name": "Capoeira e tudo que a boca come",
+        "tag": "Donnerstag",
+        "zeit": "16:30 - 18:00"
+    },
+    {
+        "id": "213",
+        "sport": "Capoeira",
+        "name": "Capoeira ",
+        "tag": "Mittwoch",
+        "zeit": "20:30 - 22:00"
+    },
+    {
+        "id": "214",
+        "sport": "Karate",
+        "name": "Karate",
+        "tag": "Mittwoch",
+        "zeit": "18:00 - 19:30"
+    },
+    {
+        "id": "215",
+        "sport": "JKD Urband Combat Selbstverteidigung",
+        "name": "Mo: JKD Urband Combat Selbstverteidigung",
+        "tag": "Montag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "217",
+        "sport": "Wing Tsun",
+        "name": "Wing Tsun",
+        "tag": "Dienstag",
+        "zeit": "18:00 - 19:30"
+    },
+    {
+        "id": "218",
+        "sport": "Zumba",
+        "name": "Zumba Dienstag 16:45",
+        "tag": "Dienstag",
+        "zeit": "16:45 - 18:15"
+    },
+    {
+        "id": "219",
+        "sport": "Rücken Fit",
+        "name": "Rücken-Fit",
+        "tag": "Mittwoch",
+        "zeit": "20:15 - 21:45"
+    },
+    {
+        "id": "220",
+        "sport": "Rückenfitness",
+        "name": "Kurs 1",
+        "tag": "Montag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "221",
+        "sport": "Rückengymnastik",
+        "name": "Kurs 1",
+        "tag": "Montag",
+        "zeit": "17:30 - 19:00"
+    },
+    {
+        "id": "222",
+        "sport": "Autogenes Training",
+        "name": "Autogenes Training Di",
+        "tag": "Dienstag",
+        "zeit": "16:30 - 18:00"
+    },
+    {
+        "id": "224",
+        "sport": "Autogenes Training",
+        "name": "Autogenes Training Mi 1",
+        "tag": "Mittwoch",
+        "zeit": "15:30 - 17:00"
+    },
+    {
+        "id": "227",
+        "sport": "Kung Fu Kian",
+        "name": "Kung Fu Kian",
+        "tag": "Dienstag",
+        "zeit": "19:30 - 21:00"
+    },
+    {
+        "id": "228",
+        "sport": "Autogenes Training",
+        "name": "Autogenes Training Mi 2",
+        "tag": "Mittwoch",
+        "zeit": "16:30 - 18:00"
+    },
+    {
+        "id": "229",
+        "sport": "Bodyjam ",
+        "name": "Bodyjam ",
+        "tag": "Dienstag",
+        "zeit": "20:15 - 21:30"
+    },
+    {
+        "id": "232",
+        "sport": "Yoga",
+        "name": "Yoga",
+        "tag": "Montag",
+        "zeit": "20:00 - 21:30"
+    },
+    {
+        "id": "233",
+        "sport": "Indoor Fußball",
+        "name": "Samstags 13:00 -  14:30 Kautz",
+        "tag": "Samstag",
+        "zeit": "13:00 - 14:30"
+    },
+    {
+        "id": "234",
+        "sport": "Shaolin Qigong aus Henan",
+        "name": "Shaolin Qigong aus Henan",
+        "tag": "Dienstag",
+        "zeit": "19:00 - 20:00"
+    },
+    {
+        "id": "235",
+        "sport": "Nei jia-Quan fa –Taijiquan",
+        "name": "Nei jia-Quan fa –Taijiquan",
+        "tag": "Donnerstag",
+        "zeit": "17:00 - 18:00"
+    },
+    {
+        "id": "237",
+        "sport": "Qi Gong",
+        "name": "Qi Gong",
+        "tag": "Donnerstag",
+        "zeit": "18:00 - 19:00"
+    },
+    {
+        "id": "238",
+        "sport": "Tàijígong",
+        "name": "Tàijígong Do 1",
+        "tag": "Donnerstag",
+        "zeit": "19:00 - 20:00"
+    },
+    {
+        "id": "239",
+        "sport": "Tàijígong",
+        "name": "Tàijígong Do 2",
+        "tag": "Donnerstag",
+        "zeit": "20:00 - 21:00"
+    },
+    {
+        "id": "241",
+        "sport": "Shintaido - Bojutsu",
+        "name": "Shintaido - Bojutsu",
+        "tag": "Montag",
+        "zeit": "20:00 - 21:30"
+    },
+    {
+        "id": "243",
+        "sport": "Volleyball",
+        "name": "Beachvolleyball Do.",
+        "tag": "Donnerstag",
+        "zeit": "19:00 - 21:00"
+    },
+    {
+        "id": "246",
+        "sport": "Zumba",
+        "name": "Zumba Mi",
+        "tag": "Mittwoch",
+        "zeit": "18:30 - 20:00"
+    },
+    {
+        "id": "247",
+        "sport": "Bellydance",
+        "name": "Bellydance",
+        "tag": "Montag",
+        "zeit": "19:30 - 21:00"
+    },
+    {
+        "id": "248",
+        "sport": "Contemporary Dance",
+        "name": "Contemporary Dance",
+        "tag": "Montag",
+        "zeit": "16:30 - 18:00"
+    },
+    {
+        "id": "249",
+        "sport": "Schach",
+        "name": "Schach",
+        "tag": "Dienstag",
+        "zeit": "18:00 - 21:00"
+    },
+    {
+        "id": "250",
+        "sport": "Bollywood Dance",
+        "name": "Bollywood Dance",
+        "tag": "Mittwoch",
+        "zeit": "19:45 - 21:15"
+    },
+    {
+        "id": "251",
+        "sport": "Hip Hop",
+        "name": "Hip Hop",
+        "tag": "Mittwoch",
+        "zeit": "18:00 - 19:30"
+    },
+    {
+        "id": "252",
+        "sport": "JKD Urband Combat Selbstverteidigung",
+        "name": "Mi: JKD Urband Combat Selbstverteidigung",
+        "tag": "Mittwoch",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "253",
+        "sport": "Chakra-Energie-Yoga",
+        "name": "Chakra-Energie-Yoga",
+        "tag": "Dienstag",
+        "zeit": "19:30 - 21:00"
+    },
+    {
+        "id": "255",
+        "sport": "Volleyball",
+        "name": "Buteyko-Atem-Methode",
+        "tag": "Dienstag",
+        "zeit": "19:00 - 20:00"
+    },
+    {
+        "id": "256",
+        "sport": "Alexander-Technik: Körperbewusstsein in Aktion - NEU!",
+        "name": "Alexander-Technik: Körperbewusstsein in Aktion ",
+        "tag": "Mittwoch",
+        "zeit": "18:30 - 20:00"
+    },
+    {
+        "id": "257",
+        "sport": "Meditation – Neu!",
+        "name": "Meditation – Neu!",
+        "tag": "Mittwoch",
+        "zeit": "20:00 - 21:30"
+    },
+    {
+        "id": "258",
+        "sport": "Entspannungs- und Fantasiereisen ",
+        "name": "Entspannungs- und Fantasiereisen ",
+        "tag": "Dienstag",
+        "zeit": "18:00 - 19:30"
+    },
+    {
+        "id": "259",
+        "sport": "Hatha-Yoga",
+        "name": "Hatha-Yoga 18:30",
+        "tag": "Donnerstag",
+        "zeit": "18:30 - 20:00"
+    },
+    {
+        "id": "260",
+        "sport": "Volleyball",
+        "name": "Mittwoch 19:30 - 21:30 Marcel",
+        "tag": "Mittwoch",
+        "zeit": "19:30 - 21:30"
+    },
+    {
+        "id": "262",
+        "sport": "Ballett",
+        "name": "Kurs 6 Mittwoch 19:00",
+        "tag": "Mittwoch",
+        "zeit": "19:00 - 20:00"
+    },
+    {
+        "id": "263",
+        "sport": "Ballett",
+        "name": "Kurs 4 Montags 18:00",
+        "tag": "Montag",
+        "zeit": "18:00 - 19:00"
+    },
+    {
+        "id": "264",
+        "sport": "Pilates",
+        "name": "Pilates",
+        "tag": "Mittwoch",
+        "zeit": "19:00 - 20:15"
+    },
+    {
+        "id": "265",
+        "sport": "BOP (Bauch, Oberschenkel, Po)",
+        "name": "BOP Fr",
+        "tag": "Freitag",
+        "zeit": "16:30 - 18:00"
+    },
+    {
+        "id": "267",
+        "sport": "Meditations-Yoga - NEU!",
+        "name": "Meditations-Yoga - NEU!",
+        "tag": "Dienstag",
+        "zeit": "16:30 - 18:00"
+    },
+    {
+        "id": "269",
+        "sport": "Volleyball",
+        "name": "Powerfit",
+        "tag": "Montag",
+        "zeit": "20:00 - 21:30"
+    },
+    {
+        "id": "270",
+        "sport": "Powerfit",
+        "name": "Powerfit Powerfit- NEU!",
+        "tag": "Montag",
+        "zeit": "20:00 - 21:30"
+    },
+    {
+        "id": "271",
+        "sport": "Zumba",
+        "name": "Zumba Di.",
+        "tag": "Dienstag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "272",
+        "sport": "Zoca Dance",
+        "name": "Zoca Dance",
+        "tag": "Dienstag",
+        "zeit": "18:00 - 19:00"
+    },
+    {
+        "id": "273",
+        "sport": "Cardio Pilates – NEU!",
+        "name": "Cardio Pilates – NEU!",
+        "tag": "Montag",
+        "zeit": "17:00 - 18:30"
+    },
+    {
+        "id": "274",
+        "sport": "Fitness-Fun – NEU!",
+        "name": "Full Body Workout Xpress ",
+        "tag": "Mittwoch",
+        "zeit": "17:30 - 18:15"
+    },
+    {
+        "id": "275",
+        "sport": "Stretching",
+        "name": "Powerstretching",
+        "tag": "Donnerstag",
+        "zeit": "20:15 - 21:30"
+    },
+    {
+        "id": "276",
+        "sport": "Contemporary Dance",
+        "name": "Contemporary Dance",
+        "tag": "Montag",
+        "zeit": "18:00 - 19:30"
+    },
+    {
+        "id": "277",
+        "sport": "Frauen Kickboxen - NEU!",
+        "name": "Frauen Kickboxen Mo",
+        "tag": "Montag",
+        "zeit": "17:30 - 19:00"
+    },
+    {
+        "id": "278",
+        "sport": "Frauen Kickboxen - NEU!",
+        "name": "Frauen Kickboxen Sa",
+        "tag": "Samstag",
+        "zeit": "12:00 - 13:30"
+    },
+    {
+        "id": "279",
+        "sport": "Pickleball – NEU!",
+        "name": "Pickleball –Do",
+        "tag": "Donnerstag",
+        "zeit": "20:30 - 22:00"
+    },
+    {
+        "id": "280",
+        "sport": "Ballspiele Mix – NEU!",
+        "name": "Ballspiele Mix – NEU!",
+        "tag": "Mittwoch",
+        "zeit": "20:30 - 22:00"
+    },
+    {
+        "id": "282",
+        "sport": "Bodycombat ",
+        "name": "Bodycombat ",
+        "tag": "Mittwoch",
+        "zeit": "20:15 - 21:45"
+    },
+    {
+        "id": "283",
+        "sport": "Wasserball",
+        "name": "Wasserball",
+        "tag": "Montag",
+        "zeit": "19:45 - 21:45"
+    },
+    {
+        "id": "284",
+        "sport": "Wasserball",
+        "name": "Wasserball",
+        "tag": "Dienstag",
+        "zeit": "19:20 - 21:20"
+    },
+    {
+        "id": "285",
+        "sport": "Core Xpress – NEU!",
+        "name": "Core Xpress – NEU!",
+        "tag": "Mittwoch",
+        "zeit": "18:15 - 19:00"
+    },
+    {
+        "id": "286",
+        "sport": "Full Body Workout Xpress – NEU!",
+        "name": "Full Body Workout Xpress – NEU!",
+        "tag": "Mittwoch",
+        "zeit": "17:30 - 18:15"
+    },
+    {
+        "id": "287",
+        "sport": "Pickleball – NEU!",
+        "name": "Pickleball - Mo",
+        "tag": "Montag",
+        "zeit": "19:00 - 21:00"
+    },
+    {
+        "id": "288",
+        "sport": "BBP Express - NEU!",
+        "name": "BBP Express - NEU!",
+        "tag": "Donnerstag",
+        "zeit": "19:45 - 20:15"
+    },
+    {
+        "id": "289",
+        "sport": "Full Body Workout - NEU!",
+        "name": "Full Body Workout - NEU!",
+        "tag": "Donnerstag",
+        "zeit": "17:30 - 19:00"
+    },
+    {
+        "id": "290",
+        "sport": "Total Body Workout Xpress - NEU!",
+        "name": "Total Body Workout Xpress - NEU!",
+        "tag": "Donnerstag",
+        "zeit": "19:00 - 19:45"
+    },
+    {
+        "id": "291",
+        "sport": "Basketball",
+        "name": "Basketball Di.",
+        "tag": "Dienstag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "292",
+        "sport": "Energie tanken – der Wiederbelebungskurs - NEU",
+        "name": "Energie tanken – der Wiederbelebungskurs - NEU",
+        "tag": "Montag",
+        "zeit": "16:00 - 17:30"
+    },
+    {
+        "id": "293",
+        "sport": "Pilates: Rücken",
+        "name": "Pilates: Rücken",
+        "tag": "Montag",
+        "zeit": "20:00 - 21:30"
+    },
+    {
+        "id": "295",
+        "sport": "Ballett",
+        "name": "Kurs 5 Mittwoch 18 Uhr",
+        "tag": "Mittwoch",
+        "zeit": "18:00 - 19:00"
+    },
+    {
+        "id": "296",
+        "sport": "Jazz-Dance",
+        "name": "Mi 17 Uhr",
+        "tag": "Mittwoch",
+        "zeit": "17:00 - 18:00"
+    },
+    {
+        "id": "297",
+        "sport": "Ballett",
+        "name": "Kurs 7 Mittwoch 10 Uhr",
+        "tag": "Mittwoch",
+        "zeit": "10:00 - 11:30"
+    },
+    {
+        "id": "300",
+        "sport": "Barre Pilates",
+        "name": "Barre Pilates",
+        "tag": "Dienstag",
+        "zeit": "17:00 - 18:00"
+    },
+    {
+        "id": "301",
+        "sport": "Barre Pilates",
+        "name": "Barre Pilates-NEU!",
+        "tag": "Dienstag",
+        "zeit": "17:00 - 18:00"
+    },
+    {
+        "id": "302",
+        "sport": "Ballspiele Mix – NEU!",
+        "name": "Montag",
+        "tag": "Montag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "303",
+        "sport": "Modern-Dance",
+        "name": "Kurs 2 Do 19:30",
+        "tag": "Donnerstag",
+        "zeit": "19:00 - 20:30"
+    },
+    {
+        "id": "304",
+        "sport": "Akku - Yoga",
+        "name": "Akku - Yoga",
+        "tag": "Montag",
+        "zeit": "16:30 - 18:00"
+    },
+    {
+        "id": "305",
+        "sport": "Dance Workout",
+        "name": "Dance Workout",
+        "tag": "Dienstag",
+        "zeit": "17:00 - 18:00"
+    },
+    {
+        "id": "306",
+        "sport": "Schwimmen",
+        "name": "Schwimmen NEU",
+        "tag": "Mittwoch",
+        "zeit": "20:15 - 21:30"
+    },
+    {
+        "id": "307",
+        "sport": "Volleyball",
+        "name": "PrimalMoves",
+        "tag": "Dienstag",
+        "zeit": "17:30 - 18:30"
+    },
+    {
+        "id": "308",
+        "sport": "Volleyball",
+        "name": "PrimalMoves",
+        "tag": "Dienstag",
+        "zeit": "17:30 - 18:30"
+    },
+    {
+        "id": "309",
+        "sport": "Tischfußball",
+        "name": "PrimalMoves",
+        "tag": "Dienstag",
+        "zeit": "17:30 - 18:30"
+    },
+    {
+        "id": "310",
+        "sport": "PrimalMoves",
+        "name": "PrimalMoves",
+        "tag": "Dienstag",
+        "zeit": "17:30 - 18:30"
+    },
+    {
+        "id": "312",
+        "sport": "Yoga & Stressbewältigung",
+        "name": "Yoga & Stressbewältigung",
+        "tag": "Montag",
+        "zeit": "18:00 - 19:30"
+    }
+]
