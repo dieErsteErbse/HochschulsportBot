@@ -317,9 +317,9 @@
     {
         "id": "140",
         "sport": "Ballett",
-        "name": "Kurs 2 Donnerstag 20:30",
+        "name": "Kurs 2 Donnerstag 16:30",
         "tag": "Donnerstag",
-        "zeit": "20:30 - 22:00"
+        "zeit": "16:30 - 18:00"
     },
     {
         "id": "141",
@@ -367,8 +367,8 @@
         "id": "147",
         "sport": "Jazz-Dance",
         "name": "Kurs 2",
-        "tag": "Mittwoch",
-        "zeit": "14:30 - 15:30"
+        "tag": "Donnerstag",
+        "zeit": "15:00 - 16:30"
     },
     {
         "id": "148",
@@ -381,7 +381,7 @@
         "id": "149",
         "sport": "Samba",
         "name": "Kurs 1",
-        "tag": "Montag",
+        "tag": "Dienstag",
         "zeit": "16:00 - 17:00"
     },
     {
@@ -584,8 +584,8 @@
         "id": "202",
         "sport": "Lachyoga",
         "name": "Lachyoga",
-        "tag": "Mittwoch",
-        "zeit": "16:30 - 18:00"
+        "tag": "Donnerstag",
+        "zeit": "15:00 - 16:30"
     },
     {
         "id": "206",
@@ -599,7 +599,7 @@
         "sport": "Tai Chi Chuan",
         "name": "Tai Chi Chuan",
         "tag": "Donnerstag",
-        "zeit": "18:00 - 20:00"
+        "zeit": "19:30 - 21:00"
     },
     {
         "id": "211",
@@ -1073,9 +1073,9 @@
     {
         "id": "295",
         "sport": "Ballett",
-        "name": "Kurs 5 Mittwoch 19 Uhr",
+        "name": "Kurs 5 Mittwoch 18 Uhr",
         "tag": "Mittwoch",
-        "zeit": "19:00 - 20:00"
+        "zeit": "18:00 - 19:00"
     },
     {
         "id": "296",
@@ -1115,9 +1115,9 @@
     {
         "id": "303",
         "sport": "Modern-Dance",
-        "name": "Kurs 2 Mi 13h",
-        "tag": "Mittwoch",
-        "zeit": "13:00 - 14:00"
+        "name": "Kurs 2 Do 19:30",
+        "tag": "Donnerstag",
+        "zeit": "19:00 - 20:30"
     },
     {
         "id": "304",
@@ -1174,19 +1174,5 @@
         "name": "Yoga & Stressbewältigung",
         "tag": "Montag",
         "zeit": "18:00 - 19:30"
-    },
-    {
-        "id": "313",
-        "sport": "JKD Urband Combat Selbstverteidigung",
-        "name": "Mo: JKD Urband Combat Selbstverteidigung",
-        "tag": "Montag",
-        "zeit": "17:30 - 19:00"
-    },
-    {
-        "id": "314",
-        "sport": "Ultimate Frisbee",
-        "name": "Ultimate Frisbee",
-        "tag": "Montag",
-        "zeit": "19:00 - 21:00"
     }
 ]
