@@ -61,4 +61,4 @@ def lade_kurse(filepath='kurse_datenbank.json'):
         sportarten_dict[sport].append(k)
 
     # Wir geben hier die sortierten Keys (Sportarten) zurück
-    return sorted(sportarten_dict.keys())
+    return sportarten_dict

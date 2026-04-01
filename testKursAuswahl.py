@@ -10,7 +10,9 @@ import requests
 import json
 import time
 
-alle_sportarten = kursService.lade_kurse()
+
+sportarten_dict = kursService.lade_kurse()
+alle_sportarten = sorted(sportarten_dict.keys())
 
 st.set_page_config(page_title="HSP Köln Master-Bot", layout="wide")
 st.title("🏆 HSP Köln - Anmeldung v2.0")
