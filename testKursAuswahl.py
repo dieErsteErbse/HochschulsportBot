@@ -4,100 +4,14 @@ import json
 import time
 from datetime import datetime
 import os
-
+import Services.kursService as kursService
+import Services.requestService as requestService
 import requests
 import json
 import time
 
-def scan_courses(start_id, end_id):
-    url = "https://anmeldung.hochschulsport-koeln.de/inc/methods.php"
-    found_courses = []
+alle_sportarten = kursService.lade_kurse()
 
-    print(f"Starte Scan von ID {start_id} bis {end_id}...")
-
-    for course_id in range(start_id, end_id + 1):
-        payload = {'state': 'getDetails', 'offer_course_id': str(course_id)}
-        
-        try:
-            response = requests.post(url, data=payload, timeout=5)
-            if response.status_code == 200:
-                data = response.json()
-                
-                # Wenn ein kurs_name existiert, ist die ID gültig
-                if data and "kurs_name" in data and data["kurs_name"]:
-                    course_info = {
-                        "id": data["sportangebote_kurse_id"],
-                        "sport": data["sportangebot_name"],
-                        "name": data["kurs_name"],
-                        "tag": data["kurs_tag"],
-                        "zeit": f"{data['kurs_zeit_start']} - {data['kurs_zeit_ende']}"
-                    }
-                    found_courses.append(course_info)
-                    print(f"✅ Gefunden: {course_info['sport']} - {course_info['name']} (ID: {course_id})")
-            
-            # Kurze Pause, um den Server nicht zu stressen (Fair Play & Schutz vor Sperre)
-            time.sleep(0.05) 
-            
-        except Exception:
-            # Falls die ID nicht existiert oder kein JSON zurückkommt
-            continue
-
-    # Speichern als JSON
-    with open('kurse_datenbank.json', 'w', encoding='utf-8') as f:
-        json.dump(found_courses, f, ensure_ascii=False, indent=4)
-    
-    print(f"\nFertig! {len(found_courses)} Kurse wurden in 'kurse_datenbank.json' gespeichert.")
-
-# Scan ausführen (Bereich evtl. anpassen, 1-1000 deckt meist alles ab)
-
-# 1. Daten laden
-def load_courses():
-    try:
-        with open('kurse_datenbank.json', 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return []
-
-kurs_daten = load_courses()
-
-# --- DATEN STRUKTURIEREN ---
-sportarten_dict = {}
-for k in kurs_daten:
-    sport = k['sport']
-    if sport not in sportarten_dict:
-        sportarten_dict[sport] = []
-    sportarten_dict[sport].append(k)
-
-alle_sportarten = sorted(sportarten_dict.keys())
-
-# --- LOGIK: Die Sende-Funktion ---
-def send_request(user_data):
-    url = "https://anmeldung.hochschulsport-koeln.de/inc/methods.php"
-    payload = {
-        'state': 'studentAnmelden',
-        'type': user_data['status'],
-        'offerCourseID': user_data['course_id'],
-        'vorname': user_data['vorname'],
-        'nachname': user_data['nachname'],
-        'telefon': user_data['telefon'],
-        'matrikel': user_data['matrikel'] if user_data['matrikel'] else '000000',
-        'email': user_data['email'],
-        'hochschulen': user_data['hochschule'] if user_data['hochschule'] else '0',
-        'hochschulenextern': 'null',
-        'office': 'null'
-    }
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0',
-        'X-Requested-With': 'XMLHttpRequest',
-        'Referer': 'https://anmeldung.hochschulsport-koeln.de/'
-    }
-    try:
-        response = requests.post(url, data=payload, headers=headers, timeout=10)
-        return response
-    except Exception as e:
-        return 500, str(e)
-
-# --- UI SETTINGS ---
 st.set_page_config(page_title="HSP Köln Master-Bot", layout="wide")
 st.title("🏆 HSP Köln - Anmeldung v2.0")
 
@@ -168,15 +82,13 @@ with st.sidebar:
     st.header("👟 Sportkurs-Verwaltung")
     if st.button("🔄 Aktuelle Kurse holen"):
         try:
-            scan_courses(1, 400)
+            kursService.scan_courses(1, 400)
             st.success("Liste erfolgreich geladen!")
         except:
             st.error("Ein Fehler ist aufgetreten. Die Liste konnte nicht geladen werden!")
 
 # --- HAUPTBEREICH: WARTESCHLANGE ---
 st.subheader("📋 Warteschlange")
-
-
 
 if st.session_state.users:
     st.table(st.session_state.users)
@@ -204,7 +116,7 @@ if st.session_state.users:
             
             status_box.success("🔥 Feuer frei!")
             for user in st.session_state.users:
-                response = send_request(user)
+                response = requestService.send_request(user)
                 if response.status_code == 200 and "Error" not in response.text:
                     st.success(f"✅ {user['vorname']} angemeldet!  {response.text}")
                     st.info(response)
@@ -215,7 +127,7 @@ if st.session_state.users:
     with col_b2:
         if st.button("🚀 JETZT SOFORT ANMELDEN", use_container_width=True):
             for user in st.session_state.users:
-                response = send_request(user)
+                response = requestService.send_request(user)
                 if response.status_code == 200 and "Error" not in response.text:
                     st.success(f"✅ {user['vorname']} angemeldet!  {response.text}")
                     st.info(response.json)
