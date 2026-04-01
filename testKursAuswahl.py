@@ -142,7 +142,7 @@ with st.sidebar:
                 st.rerun()
 
     st.divider()
-    st.header("💾 Daten-Management")
+    st.header("👥 Nutzer-Verwaltung")
     if st.button("📥 Liste speichern"):
         with open('nutzer_vorlage.json', 'w', encoding='utf-8') as f:
             json.dump(st.session_state.users, f, indent=4)
@@ -153,11 +153,25 @@ with st.sidebar:
             with open('nutzer_vorlage.json', 'r', encoding='utf-8') as f:
                 st.session_state.users = json.load(f)
             st.success("Liste erfolgreich geladen!")
-            st.rerun()
         else:
-            st.error("Keine Vorlage gefunden!")
+            st.error("Ein Fehler ist aufgetreten. Die Liste konnte nicht gelöscht werden!")
+
+
+    if st.button("🗑️ Liste löschen"):
+        if os.path.exists('nutzer_vorlage.json'):
+            with open('nutzer_vorlage.json', 'w', encoding='utf-8') as f:
+                json.dump([], f) # oder {} falls deine Nutzer als Dictionary gespeichert sind
+            st.success("Liste erfolgreich gelöscht!")
+        else:
+            st.error("Ein Fehler ist aufgetreten. Die Liste konnte nicht gelöscht werden!")
+
+    st.header("👟 Sportkurs-Verwaltung")
     if st.button("🔄 Aktuelle Kurse holen"):
-        scan_courses(1, 400)
+        try:
+            scan_courses(1, 400)
+            st.success("Liste erfolgreich geladen!")
+        except:
+            st.error("Ein Fehler ist aufgetreten. Die Liste konnte nicht geladen werden!")
 
 # --- HAUPTBEREICH: WARTESCHLANGE ---
 st.subheader("📋 Warteschlange")
